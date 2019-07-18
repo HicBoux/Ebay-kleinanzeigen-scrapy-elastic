@@ -34,6 +34,7 @@ docker-compose up -d
 }
 ```
 The default login and server parameters of the ElasticSearch Docker images are entered.
+
 4) Change your current directory to the Scraper's one and start it through :
 ```bash
 cd .../ebaykleinanzeigen
