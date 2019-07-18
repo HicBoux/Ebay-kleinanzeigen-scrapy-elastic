@@ -4,9 +4,9 @@ The aim here is to extract data from https://www.ebay-kleinanzeigen.de/ automati
 into an ElasticSearch cluster and get fast insights with Kibana.
 
 <h2>Requirements</h2>
-Python 3
-Elasticsearchb 7.0.2
-Scrapy 1.6.0
+Python 3 <br/>
+Elasticsearchb 7.0.2 <br/>
+Scrapy 1.6.0 <br/>
 
 <h2>How to set it :</h2>
 
@@ -23,14 +23,14 @@ docker-compose up -d
 3) Set the various configuration parameters you wish :
 ```json
 {
-  "protocol": http or https,
-  "elastic_username": the username to connect on your ElasticSearch cluster,
-  "elastic_password": the needed password to connect on your ElasticSearch cluster,
-  "elastic_address": the binded ip address of your ElasticSearch cluster,
-  "elastic_port": the binded port of your ElasticSearch cluster,
-  "elastic_index_name": the index name of your ElasticSearch cluster,
-  "elastic_connection_retry": the number of tries to reconnect on your ElasticSearch in case of failure,
-  "scrape_next_pages": boolean to indicate if the web scraper check the next pages (1,2,3...) displayed at the bottom of page.
+  "protocol": "http or https",
+  "elastic_username": "the username to connect on your ElasticSearch cluster",
+  "elastic_password": "the needed password to connect on your ElasticSearch cluster",
+  "elastic_address": "the binded ip address of your ElasticSearch cluster",
+  "elastic_port": "the binded port of your ElasticSearch cluster",
+  "elastic_index_name": "the index name of your ElasticSearch cluster",
+  "elastic_connection_retry": "the number of tries to reconnect on your ElasticSearch in case of failure",
+  "scrape_next_pages": "boolean to indicate if the web scraper check the next pages (1,2,3...) displayed at the bottom of page."
 }
 ```
 The default login and server parameters of the ElasticSearch Docker images are entered.
