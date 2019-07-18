@@ -1,0 +1,11 @@
+{
+  "protocol":"http",
+  "elastic_username":"elastic",
+  "elastic_password":"changeme",
+  "elastic_address":"127.0.0.1",
+  "elastic_port":"9200",
+  "elastic_index_name":"ebay_kleinanzeigen",
+  "elastic_connection_retry":5,
+  "scrape_next_pages": "True"
+}
+
