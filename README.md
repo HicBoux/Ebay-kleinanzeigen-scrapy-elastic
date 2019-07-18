@@ -49,7 +49,7 @@ in order to avoid problems on Ebay-kleinanzeigen's server.
 <h2>References</h2>
 
 -[Ebay-kleinanzeigen](https://www.ebay-kleinanzeigen.de/stadt/berlin/) <br/>
--[Elasticsearch-py](https://elasticsearch-py.readthedocs.io/en/master/ <br/>
+-[Elasticsearch-py](https://elasticsearch-py.readthedocs.io/en/master/) <br/>
 
 <h2>Credits</h2>
 
