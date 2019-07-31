@@ -62,4 +62,4 @@ Copyright (c) 2019, HicBoux. Work released under Apache 2.0 License.
 This solution has been made available for informational and educational purposes only. I hereby disclaim any and all 
 liability to any party for any direct, indirect, implied, punitive, special, incidental or other consequential 
 damages arising directly or indirectly from any use of this content, which is provided as is, and without warranties.
-I also disclaim all responsibilities for web scraping at a disruptive rate and eventual damages caused by a such use.
+I also disclaim all responsibility for web scraping at a disruptive rate and eventual damages caused by a such use.
